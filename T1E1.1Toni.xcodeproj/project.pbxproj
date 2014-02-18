@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56DE3A2118B38E4E0082F7A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE3A2018B38E4E0082F7A0 /* Foundation.framework */; };
+		56DE3A2318B38E4E0082F7A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE3A2218B38E4E0082F7A0 /* CoreGraphics.framework */; };
+		56DE3A2518B38E4E0082F7A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE3A2418B38E4E0082F7A0 /* UIKit.framework */; };
+		56DE3A2B18B38E4E0082F7A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56DE3A2918B38E4E0082F7A0 /* InfoPlist.strings */; };
+		56DE3A2D18B38E4E0082F7A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DE3A2C18B38E4E0082F7A0 /* main.m */; };
+		56DE3A3118B38E4E0082F7A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DE3A3018B38E4E0082F7A0 /* AppDelegate.m */; };
+		56DE3A3418B38E4E0082F7A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DE3A3218B38E4E0082F7A0 /* Main.storyboard */; };
+		56DE3A3718B38E4E0082F7A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DE3A3618B38E4E0082F7A0 /* ViewController.m */; };
+		56DE3A3918B38E4E0082F7A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DE3A3818B38E4E0082F7A0 /* Images.xcassets */; };
+		56DE3A4018B38E4E0082F7A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE3A3F18B38E4E0082F7A0 /* XCTest.framework */; };
+		56DE3A4118B38E4E0082F7A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE3A2018B38E4E0082F7A0 /* Foundation.framework */; };
+		56DE3A4218B38E4E0082F7A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE3A2418B38E4E0082F7A0 /* UIKit.framework */; };
+		56DE3A4A18B38E4E0082F7A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56DE3A4818B38E4E0082F7A0 /* InfoPlist.strings */; };
+		56DE3A4C18B38E4E0082F7A0 /* T1E1_1ToniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DE3A4B18B38E4E0082F7A0 /* T1E1_1ToniTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56DE3A4318B38E4E0082F7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DE3A1518B38E4E0082F7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DE3A1C18B38E4E0082F7A0;
+			remoteInfo = T1E1.1Toni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56DE3A1D18B38E4E0082F7A0 /* T1E1.1Toni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T1E1.1Toni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DE3A2018B38E4E0082F7A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56DE3A2218B38E4E0082F7A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56DE3A2418B38E4E0082F7A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56DE3A2818B38E4E0082F7A0 /* T1E1.1Toni-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "T1E1.1Toni-Info.plist"; sourceTree = "<group>"; };
+		56DE3A2A18B38E4E0082F7A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56DE3A2C18B38E4E0082F7A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56DE3A2E18B38E4E0082F7A0 /* T1E1.1Toni-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T1E1.1Toni-Prefix.pch"; sourceTree = "<group>"; };
+		56DE3A2F18B38E4E0082F7A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56DE3A3018B38E4E0082F7A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56DE3A3318B38E4E0082F7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56DE3A3518B38E4E0082F7A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56DE3A3618B38E4E0082F7A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56DE3A3818B38E4E0082F7A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56DE3A3E18B38E4E0082F7A0 /* T1E1.1ToniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T1E1.1ToniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DE3A3F18B38E4E0082F7A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56DE3A4718B38E4E0082F7A0 /* T1E1.1ToniTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "T1E1.1ToniTests-Info.plist"; sourceTree = "<group>"; };
+		56DE3A4918B38E4E0082F7A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56DE3A4B18B38E4E0082F7A0 /* T1E1_1ToniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T1E1_1ToniTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56DE3A1A18B38E4E0082F7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE3A2318B38E4E0082F7A0 /* CoreGraphics.framework in Frameworks */,
+				56DE3A2518B38E4E0082F7A0 /* UIKit.framework in Frameworks */,
+				56DE3A2118B38E4E0082F7A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE3A3B18B38E4E0082F7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE3A4018B38E4E0082F7A0 /* XCTest.framework in Frameworks */,
+				56DE3A4218B38E4E0082F7A0 /* UIKit.framework in Frameworks */,
+				56DE3A4118B38E4E0082F7A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56DE3A1418B38E4E0082F7A0 = {
+			isa = PBXGroup;
+			children = (
+				56DE3A2618B38E4E0082F7A0 /* T1E1.1Toni */,
+				56DE3A4518B38E4E0082F7A0 /* T1E1.1ToniTests */,
+				56DE3A1F18B38E4E0082F7A0 /* Frameworks */,
+				56DE3A1E18B38E4E0082F7A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56DE3A1E18B38E4E0082F7A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56DE3A1D18B38E4E0082F7A0 /* T1E1.1Toni.app */,
+				56DE3A3E18B38E4E0082F7A0 /* T1E1.1ToniTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56DE3A1F18B38E4E0082F7A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56DE3A2018B38E4E0082F7A0 /* Foundation.framework */,
+				56DE3A2218B38E4E0082F7A0 /* CoreGraphics.framework */,
+				56DE3A2418B38E4E0082F7A0 /* UIKit.framework */,
+				56DE3A3F18B38E4E0082F7A0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56DE3A2618B38E4E0082F7A0 /* T1E1.1Toni */ = {
+			isa = PBXGroup;
+			children = (
+				56DE3A2F18B38E4E0082F7A0 /* AppDelegate.h */,
+				56DE3A3018B38E4E0082F7A0 /* AppDelegate.m */,
+				56DE3A3218B38E4E0082F7A0 /* Main.storyboard */,
+				56DE3A3518B38E4E0082F7A0 /* ViewController.h */,
+				56DE3A3618B38E4E0082F7A0 /* ViewController.m */,
+				56DE3A3818B38E4E0082F7A0 /* Images.xcassets */,
+				56DE3A2718B38E4E0082F7A0 /* Supporting Files */,
+			);
+			path = T1E1.1Toni;
+			sourceTree = "<group>";
+		};
+		56DE3A2718B38E4E0082F7A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DE3A2818B38E4E0082F7A0 /* T1E1.1Toni-Info.plist */,
+				56DE3A2918B38E4E0082F7A0 /* InfoPlist.strings */,
+				56DE3A2C18B38E4E0082F7A0 /* main.m */,
+				56DE3A2E18B38E4E0082F7A0 /* T1E1.1Toni-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56DE3A4518B38E4E0082F7A0 /* T1E1.1ToniTests */ = {
+			isa = PBXGroup;
+			children = (
+				56DE3A4B18B38E4E0082F7A0 /* T1E1_1ToniTests.m */,
+				56DE3A4618B38E4E0082F7A0 /* Supporting Files */,
+			);
+			path = T1E1.1ToniTests;
+			sourceTree = "<group>";
+		};
+		56DE3A4618B38E4E0082F7A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DE3A4718B38E4E0082F7A0 /* T1E1.1ToniTests-Info.plist */,
+				56DE3A4818B38E4E0082F7A0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56DE3A1C18B38E4E0082F7A0 /* T1E1.1Toni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DE3A4F18B38E4E0082F7A0 /* Build configuration list for PBXNativeTarget "T1E1.1Toni" */;
+			buildPhases = (
+				56DE3A1918B38E4E0082F7A0 /* Sources */,
+				56DE3A1A18B38E4E0082F7A0 /* Frameworks */,
+				56DE3A1B18B38E4E0082F7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T1E1.1Toni;
+			productName = T1E1.1Toni;
+			productReference = 56DE3A1D18B38E4E0082F7A0 /* T1E1.1Toni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56DE3A3D18B38E4E0082F7A0 /* T1E1.1ToniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DE3A5218B38E4E0082F7A0 /* Build configuration list for PBXNativeTarget "T1E1.1ToniTests" */;
+			buildPhases = (
+				56DE3A3A18B38E4E0082F7A0 /* Sources */,
+				56DE3A3B18B38E4E0082F7A0 /* Frameworks */,
+				56DE3A3C18B38E4E0082F7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56DE3A4418B38E4E0082F7A0 /* PBXTargetDependency */,
+			);
+			name = T1E1.1ToniTests;
+			productName = T1E1.1ToniTests;
+			productReference = 56DE3A3E18B38E4E0082F7A0 /* T1E1.1ToniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56DE3A1518B38E4E0082F7A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Toni Saus";
+				TargetAttributes = {
+					56DE3A3D18B38E4E0082F7A0 = {
+						TestTargetID = 56DE3A1C18B38E4E0082F7A0;
+					};
+				};
+			};
+			buildConfigurationList = 56DE3A1818B38E4E0082F7A0 /* Build configuration list for PBXProject "T1E1.1Toni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56DE3A1418B38E4E0082F7A0;
+			productRefGroup = 56DE3A1E18B38E4E0082F7A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56DE3A1C18B38E4E0082F7A0 /* T1E1.1Toni */,
+				56DE3A3D18B38E4E0082F7A0 /* T1E1.1ToniTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56DE3A1B18B38E4E0082F7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE3A3918B38E4E0082F7A0 /* Images.xcassets in Resources */,
+				56DE3A2B18B38E4E0082F7A0 /* InfoPlist.strings in Resources */,
+				56DE3A3418B38E4E0082F7A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE3A3C18B38E4E0082F7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE3A4A18B38E4E0082F7A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56DE3A1918B38E4E0082F7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE3A3718B38E4E0082F7A0 /* ViewController.m in Sources */,
+				56DE3A3118B38E4E0082F7A0 /* AppDelegate.m in Sources */,
+				56DE3A2D18B38E4E0082F7A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE3A3A18B38E4E0082F7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DE3A4C18B38E4E0082F7A0 /* T1E1_1ToniTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56DE3A4418B38E4E0082F7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56DE3A1C18B38E4E0082F7A0 /* T1E1.1Toni */;
+			targetProxy = 56DE3A4318B38E4E0082F7A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56DE3A2918B38E4E0082F7A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DE3A2A18B38E4E0082F7A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56DE3A3218B38E4E0082F7A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DE3A3318B38E4E0082F7A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56DE3A4818B38E4E0082F7A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DE3A4918B38E4E0082F7A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56DE3A4D18B38E4E0082F7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56DE3A4E18B38E4E0082F7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56DE3A5018B38E4E0082F7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "T1E1.1Toni/T1E1.1Toni-Prefix.pch";
+				INFOPLIST_FILE = "T1E1.1Toni/T1E1.1Toni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56DE3A5118B38E4E0082F7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "T1E1.1Toni/T1E1.1Toni-Prefix.pch";
+				INFOPLIST_FILE = "T1E1.1Toni/T1E1.1Toni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56DE3A5318B38E4E0082F7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/T1E1.1Toni.app/T1E1.1Toni";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "T1E1.1Toni/T1E1.1Toni-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "T1E1.1ToniTests/T1E1.1ToniTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56DE3A5418B38E4E0082F7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/T1E1.1Toni.app/T1E1.1Toni";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "T1E1.1Toni/T1E1.1Toni-Prefix.pch";
+				INFOPLIST_FILE = "T1E1.1ToniTests/T1E1.1ToniTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56DE3A1818B38E4E0082F7A0 /* Build configuration list for PBXProject "T1E1.1Toni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DE3A4D18B38E4E0082F7A0 /* Debug */,
+				56DE3A4E18B38E4E0082F7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DE3A4F18B38E4E0082F7A0 /* Build configuration list for PBXNativeTarget "T1E1.1Toni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DE3A5018B38E4E0082F7A0 /* Debug */,
+				56DE3A5118B38E4E0082F7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56DE3A5218B38E4E0082F7A0 /* Build configuration list for PBXNativeTarget "T1E1.1ToniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DE3A5318B38E4E0082F7A0 /* Debug */,
+				56DE3A5418B38E4E0082F7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56DE3A1518B38E4E0082F7A0 /* Project object */;
+}
